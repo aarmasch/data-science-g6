@@ -42,3 +42,6 @@ SELECT * FROM alumno ORDER BY nombre ASC;
 
 --DELETE
 DELETE FROM alumno WHERE id = 10;
+
+--TRUNCATE -- elimina definitivamente todos los registros de una tabla
+TRUNCATE TABLE alumno;
